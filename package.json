@@ -1,0 +1,16 @@
+{
+  "name": "jaime3e.github.io",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaime3e@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "nodemon": "^1.9.2"
+  }
+}
