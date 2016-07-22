@@ -1,0 +1,38 @@
+///////////variables
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+//////////////////mixins
+@mixin small {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+
+/////////////////////css
+
+
+@include small {
+  #logo {
+    background-image: url(/logo.gif);
+  }
+}
+
+@import 'reset';
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+
+  p{
+  	font-size: 20;
+  	&:hover{
+  		font-decoration: underline;
+
+  	}
+  }
+
+
+}
+

@@ -9,8 +9,10 @@
   "author": "Jaime3e@gmail.com",
   "license": "ISC",
   "devDependencies": {
+    "bower": "^1.7.9",
     "browserify": "^13.0.1",
     "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
     "nodemon": "^1.9.2"
   }
 }
